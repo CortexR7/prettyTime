@@ -1,4 +1,4 @@
-package org.zapto.juned.utility;
+package io.github.cortexr7.utility;
 
 public final class TimePrinter {
     private TimePrinter(){}

@@ -1,4 +1,4 @@
-module org.zapto.juned {
+module io.zapto.juned {
     requires java.base;
-    exports org.zapto.juned;
+    exports io.github.cortexr7;
 }

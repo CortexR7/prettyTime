@@ -1,4 +1,4 @@
-package org.zapto.juned.utility;
+package io.github.cortexr7.utility;
 
 public class PassedTime {
     private long start;

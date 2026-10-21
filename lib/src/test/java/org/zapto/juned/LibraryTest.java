@@ -4,7 +4,10 @@
 package org.zapto.juned;
 
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
+
+import io.github.cortexr7.PrettyTime;
 
 class LibraryTest {
     @Test void someLibraryMethodReturnsTrue() {
@@ -19,5 +22,7 @@ class LibraryTest {
         time.setEnd();
         time.printElapsedMilli("The time it took to cnstruct a new PrettyTime Object ");
         time.printElapsedNano("The time it took to cnstruct a new PrettyTime Object ");
+
+        System.out.println("If you can see that this return u time in ns and ms then the test did work.");
     }
 }
