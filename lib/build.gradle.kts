@@ -39,7 +39,7 @@ mavenPublishing {
     publishToMavenCentral()
     signAllPublications()
 
-    coordinates("io.github.cortexr7", "pretty-time", "1.0.0")
+    coordinates("io.github.cortexr7", "pretty-time", "1.0.1")
 
     pom {
         name.set("Pretty Time")
